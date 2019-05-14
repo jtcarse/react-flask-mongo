@@ -6,6 +6,6 @@ app = Flask(__name__)
 def root():
 	return 'Hello from ReAsk!'
 
-if __name__ == 'main':
+if __name__ == '__main__':
 	# only used locally
 	app.run(host='127.0.0.1', port=8080, debug=True)
