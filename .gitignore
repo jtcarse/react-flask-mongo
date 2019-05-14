@@ -1,0 +1,10 @@
+# ROOT
+yarn.lock
+
+# CLIENT
+client/node_modules
+client/build
+
+# SERVER
+server/env
+
