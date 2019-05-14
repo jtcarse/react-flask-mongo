@@ -1,10 +1,12 @@
-from flask import Flask, render_template
+from flask import Flask, jsonify
+from flask_cors import cross_origin
 
 app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
+@cross_origin()
 def root():
-	return 'Hello from ReAsk!'
+	return jsonify({ 'message': u'Hello from ReAsk!' })
 
 if __name__ == '__main__':
 	# only used locally
