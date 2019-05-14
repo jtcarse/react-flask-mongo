@@ -1,6 +1,10 @@
 # re-ask
 Boilerplate for a React + Flask app.
 
-Run server with `python server/app.py`.
+Install server dependencies with `cd server/ && pip install -r requirements.txt`.
 
-Run client with `cd client && yarn start`.
+Install client dependencies with `cd client/ && yarn install`.
+
+Run server with `cd server/ && python server.py`.
+
+Run client with `cd client/ && yarn start`.
