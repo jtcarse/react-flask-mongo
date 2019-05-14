@@ -1,9 +1,9 @@
 # ROOT
-yarn.lock
 
 # CLIENT
-client/node_modules
 client/build
+client/node_modules
+client/yarn.lock
 
 # SERVER
 server/env
