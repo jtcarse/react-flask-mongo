@@ -1,0 +1,14 @@
+version: "2.4"
+
+services:
+  flask:
+    build: ./server
+    ports:
+      - "8080:8080"
+  react:
+    build: ./client
+    ports:
+      - "5000:5000"
+    depends_on:
+      - flask
+

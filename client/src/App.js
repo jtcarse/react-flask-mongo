@@ -6,7 +6,7 @@ class App extends Component {
 	state = { message: null };
 
 	componentDidMount() {
-		fetch('http://localhost:8080/')
+		fetch('http://localhost:8080')
 			.then(response => response.json())
 			.then(data => this.setState({ message: data.message }));
 	}
