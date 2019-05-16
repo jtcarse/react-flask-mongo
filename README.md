@@ -1,5 +1,5 @@
 # react-flask-mongo
-Boilerplate for a Docker Compose React + Flask + mongo app.
+Boilerplate for a Docker Compose React + Flask + MongoDB app.
 
 Run with `docker-compose up`.
 
