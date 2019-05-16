@@ -1,5 +1,5 @@
-# re-ask
-Boilerplate for a React + Flask app.
+# react-flask-mongo
+Boilerplate for a Docker Compose React + Flask + mongo app.
 
 Run with `docker-compose up`.
 
